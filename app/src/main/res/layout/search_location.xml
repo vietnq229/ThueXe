@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="677dp"
+        android:gravity="center_horizontal"
+        android:text="Choose your pickup location"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="580dp"
+        android:background="@drawable/botron_edittext"
+        android:backgroundTint="#E1E1E1"
+        android:ems="10"
+        android:hint="Find location"
+
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="334dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="592dp"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/search" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="160dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="31dp"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginBottom="501dp"
+                android:text="Current location" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="61dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="471dp"
+                android:text="651 Minh Khai - Hai Ba Trung - Ha Noi" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="56dp"
+                android:layout_marginEnd="374dp"
+                android:layout_marginBottom="467dp"
+                app:srcCompat="@drawable/pin_location" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="337dp"
+                android:layout_marginTop="58dp"
+                android:layout_marginEnd="26dp"
+                android:layout_marginBottom="474dp"
+                android:text="Change"
+                android:textColor="#226DFF" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>
